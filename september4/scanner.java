@@ -11,10 +11,11 @@ public class scanner
     Scanner Uggs = new Scanner(System.in);
     
     // use Uggs for inputs
-    
     x = Uggs.nextLine(); 
     y = Uggs.nextDouble();
     
+    Uggs.close();
+
     // unless you use Uggs.nextLine, must put always Uggs.nextLine(); 
     
     // nextInt lets you input a integer
