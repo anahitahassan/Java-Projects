@@ -53,16 +53,22 @@ public class helloworldper1
 		// Prints "Hello my name is Anahita"
 
 		// Relationship rule
-		// The age of the younger person should not be 
-		// less than half the age of the older person 
-		// plus seven years.
+		// The age of the younger person should not be less than half the age of the older person plus seven years.
 
-
+		// Younger person: 18
+		int youngerPerson = 18;
+		// Older person: ? 
+		int olderPerson = youngerPerson * 2 - 7;
+		System.out.println(olderPerson); // Prints 29
+		// So when the younger is 18, their partner shouldn't be older than 29. 
 		
-
+		// Now say the older person is 50. 
+		olderPerson = 50;
+		youngerPerson = olderPerson / 2 + 7; 
+		System.out.println(youngerPerson); // Prints 32
+		// So when the older is 50, their partner shouldn't be younger than 32. 
 
 	}
-
 }
 
 
