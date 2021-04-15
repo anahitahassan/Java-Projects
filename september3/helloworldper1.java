@@ -1,4 +1,4 @@
-import java.util.*;
+// import java.util.*;
 // What is the import java.util used for?
 // The import is a java keyword which is used for importing a Java class or entire Java package.
 // It is not at all essential to use the line unless you are trying to access something that is present in the “util“ package.
@@ -13,14 +13,17 @@ public class helloworldper1
 	{
 		System.out.println("Hello world!");
 
+		// Note: many lines are commented out because of the yellow squiggle VSCode puts under lines where
+		// variables, etc aren't being used. 
+
 		// Variables without values:
-		int a; 
-		double b; 
+			// int a; 
+			// double b; 
 		// Variables created w/ values: 
-		int c = 7; 
-		double GPA = 4.0;
-		String subject = "AP English";
-		boolean isCorrect = true;
+			// int c = 7; 
+			// double GPA = 4.0;
+			// String subject = "AP English";
+			// boolean isCorrect = true;
 
 		// What happens when we declare a variable and then change it? 
 		int d = 7; 
