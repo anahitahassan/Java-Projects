@@ -1,4 +1,5 @@
 import java.util.*;
+// Since we used scanner, the yellow squiggle (indicating something isn't being used) is gone since we use scanner here.
 
 public class scanner
 {
