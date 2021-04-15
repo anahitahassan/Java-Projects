@@ -1,6 +1,12 @@
 import java.util.*;
-// what is the import java.util used for?
+// What is the import java.util used for?
+// The import is a java keyword which is used for importing a Java class or entire Java package.
+// It is not at all essential to use the line unless you are trying to access something that is present in the “util“ package.
+// Also, for later: import java.util.Scanner 
+	// Scanner sc = new Scanner(System.in); 
+	// int x = sc.nextInt(); 
 
+	
 public class helloworldper1
 {
 	public static void main(String[] args)
