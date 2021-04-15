@@ -1,75 +1,64 @@
+import java.util.*;
+// what is the import java.util used for?
 
 public class helloworldper1
 {
 	public static void main(String[] args)
 	{
-		System.out.println("Hello world");
+		System.out.println("Hello world!");
 
-		//variables without any values;
-		int y;
+		// Variables without values:
+		int a; 
 		double b; 
-
-		//variables created w/values;
-		int x = 7;
-		double GPA = 5.0;
+		// Variables created w/ values: 
+		int c = 7; 
+		double GPA = 4.0;
 		String subject = "AP English";
 		boolean isCorrect = true;
+
+		// What happens when we declare a variable and then change it? 
+		int d = 7; 
+		System.out.println(d); // Prints 7
+		d = 11;
+		System.out.println(d); // Prints 11 
+
+		// Order of Operations
+		d = 8 + 9 / 3 - 4;
+		// = 8 + (3) - 4 = 7
+		System.out.println(d); // Prints 7
 		
-		int a = 7;
-		System.out.println(a);
+		int e = 6;
+		d = d + e;
+		System.out.println(d); // Prints 13 now
 
-		x = 11; 
-		System.out.println(x);
+		// Dividing whole numbers 
 
-		x = 8 + 9 / 3 - 4;
-		System.out.println(x);
+		int f = 9;
+		f = f / 2;
+		System.out.println(f); // Prints 4. 
+		// Anytime there is a decimal, it will round DOWN
 
-		int c = 6; 
-		x = x + c;
-		// x now changed to 13
+		double g = 9; 
+		g = g / 2;
+		System.out.println(g); // Prints 4.5
+		// int --> rounds down decimal
+		// double --> keeps decimal
 
-		int w = 9;
-		w = w / 2;
-		System.out.println(w);
-		// anytime there is a decimal, it will round DOWN
+		int h = 8; 
+		System.out.println("Hello world " + h);
+		// Prints "Hello world 8"
+
+		String name = "Anahita";
+		System.out.println("Hello my name is " + name);
+		// Prints "Hello my name is Anahita"
+
+		// Relationship rule
+		// The age of the younger person should not be 
+		// less than half the age of the older person 
+		// plus seven years.
+
+
 		
-		double u = 9;
-		u = u / 2;
-		System.out.println(u);
-		//will be 4.5
-
-		System.out.print("Hello world");
-		System.out.println("Hello world");
-		//"Ln" tells it to skip a line
-
-
-		x = 7;
-		System.out.print("Hello world" + x);
-		//System.out.printLn(x);
-
-		// prints "Hello world 7"
-
-		String name = "Natalie";
-		System.out.print("Hello World, my name is " + name);
-		// prints "Hello world, my name is Natalie"
-
-
-
-
-		String myName = "Anahita";
-		int q = 16;
-		double shoesize = 8;
-		boolean isNotVegetarian = true;
-
-		//relationship rule
-	
-		//younger person
-		int younger = 2 * x + 7; 
-		System.out.println(younger);
-
-		//older person
-		int older = x / 2 - 7;
-		System.out.println(older);
 
 
 	}
