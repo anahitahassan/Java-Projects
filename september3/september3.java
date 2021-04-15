@@ -5,7 +5,7 @@ public class september3
 	{
 		System.out.println("Hello world");
 
-		//variables without values;
+		//variables without any values;
 		int y;
 		double b; 
 
