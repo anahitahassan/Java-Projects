@@ -38,38 +38,40 @@ public class madlibs
         System.out.print("10. Enter another gross food. ");
         String secondgrossfood = Uggs.nextLine();  
                         
-        System.out.print(" Enter a number over 1000");
+        System.out.print("11. Enter a number over 1000.");
         String thousandnumber = Uggs.nextLine();
         
-        System.out.print(" Enter a disgusting food");
+        System.out.print("12. Enter a disgusting food.");
         String disgustingfood = Uggs.nextLine();
         
-        System.out.print(" Enter an object that would belong in a kitchen");
+        System.out.print("13. Enter an object that would belong in a kitchen.");
         String noun = Uggs.nextLine();
         
-        System.out.print(" Enter an adjective to describe a sound");
+        System.out.print("14. Enter an adjective to describe a sound.");
         String soundadj = Uggs.nextLine();
         
-        System.out.print(" Enter a room in a house");
+        System.out.print("15. Enter a room in a house.");
         String room = Uggs.nextLine();
         
-        System.out.print(" Enter a adjective to describe height/size");
+        System.out.print("16. Enter a adjective to describe height/size.");
         String heightadj = Uggs.nextLine();
         
-        System.out.print(" Enter a place");
+        System.out.print("17. Enter a place.");
         String place = Uggs.nextLine();
         
-        System.out.print(" Enter an adverb");
+        System.out.print("18. Enter an adverb.");
         String thirdadverb = Uggs.nextLine();
         
-        System.out.print(" Enter an adjective");
+        System.out.print("19. Enter an adjective.");
         String alienadj = Uggs.nextLine(); 
         
-        System.out.print(" Enter an adverb");
+        System.out.print("20. Enter an adverb.");
         String fourthadverb = Uggs.nextLine();
         
-        System.out.print(" Enter an adverb");
+        System.out.print("21. Enter an adverb.");
         String fifthadverb = Uggs.nextLine();
+
+        Uggs.close();
         
         System.out.print(" Today I made " + adjective + " " + mainfood + ".");
         System.out.print(" I first put " + number + " cups of " + bakingitem + " in a bowl.");
