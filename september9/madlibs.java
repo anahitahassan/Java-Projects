@@ -14,27 +14,28 @@ public class madlibs
         
         System.out.print("3. Enter a number greater than 50.");
         int number = Uggs.nextInt();
-        Uggs.nextLine();
+
+        Uggs.nextLine(); // do we actually need this?
         
-        System.out.print(" Enter a baking ingredient");
+        System.out.print("4. Enter a baking ingredient.");
         String bakingitem = Uggs.nextLine();
         
-        System.out.print(" Enter your favorite food");
+        System.out.print("5. Enter your favorite food.");
         String favfood = Uggs.nextLine();
         
-        System.out.print(" Enter your least favorite food");
+        System.out.print("6. Enter your least favorite food.");
         String leastfavfood = Uggs.nextLine();
         
-        System.out.print(" Enter an adverb");
+        System.out.print("7. Enter an adverb.");
         String firstadverb = Uggs.nextLine();
         
-        System.out.print(" Enter an adverb");
+        System.out.print("8. Enter an adverb.");
         String secondadverb = Uggs.nextLine();
         
-        System.out.print(" Enter a gross food");
+        System.out.print("9. Enter a gross food.");
         String firstgrossfood = Uggs.nextLine();  
                         
-        System.out.print(" Enter another gross food");
+        System.out.print("10. Enter another gross food. ");
         String secondgrossfood = Uggs.nextLine();  
                         
         System.out.print(" Enter a number over 1000");
