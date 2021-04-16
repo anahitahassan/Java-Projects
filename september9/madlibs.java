@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class madlibs
+public class actualMadlibsProject
 {
     public static void main(String[] args)
     {
@@ -15,7 +15,7 @@ public class madlibs
         System.out.print("3. Enter a number greater than 50.");
         int number = Uggs.nextInt();
 
-        Uggs.nextLine(); // do we actually need this?
+        // Uggs.nextLine(); // do we actually need this?
         
         System.out.print("4. Enter a baking ingredient.");
         String bakingitem = Uggs.nextLine();
@@ -29,8 +29,9 @@ public class madlibs
         System.out.print("7. Enter an adverb.");
         String firstadverb = Uggs.nextLine();
         
+        /* Var was not used. 
         System.out.print("8. Enter an adverb.");
-        String secondadverb = Uggs.nextLine();
+        String secondadverb = Uggs.nextLine(); */
         
         System.out.print("9. Enter a gross food.");
         String firstgrossfood = Uggs.nextLine();  
