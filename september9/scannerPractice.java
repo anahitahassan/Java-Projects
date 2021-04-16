@@ -19,5 +19,6 @@ public class scannerPractice
         
         System.out.print(numberOne + operation + numberTwo);
         // If you entered 3 and 4 and *, the result printed is: 3*4, not 12. 
+        // We would probably need some series of if statements if you wanted to make a calculator. 
     }
 }
