@@ -14,8 +14,7 @@ public class actualMadlibsProject
         
         System.out.print("3. Enter a number greater than 50.");
         int number = Uggs.nextInt();
-
-        // Uggs.nextLine(); // do we actually need this?
+        Uggs.nextLine(); // do we actually need this? Yes we need this after int or else it messes stuff up
         
         System.out.print("4. Enter a baking ingredient.");
         String bakingitem = Uggs.nextLine();
