@@ -1,4 +1,4 @@
-public class sept10
+public class namingConventions
 {
     public static void main(String[] args)
     {
