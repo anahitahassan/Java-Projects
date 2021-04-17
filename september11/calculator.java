@@ -9,13 +9,15 @@ public class calculator
         System.out.print("Press 1 if you are inputting integers, press 2 if you are inputting decimals");
         int input = scanner.nextInt(); 
         
+
+
         // INTEGERS ONLY
         if ( input == 1 )
             { 
-                System.out.print("Enter first integer:");
+                System.out.print("Enter first integer: ");
                 int a = scanner.nextInt();
             
-                System.out.print("Enter second integer:");
+                System.out.print("Enter second integer: ");
                 int b = scanner.nextInt();
             
                 System.out.print("Enter an operator: press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division, and 5 for remainder ");
