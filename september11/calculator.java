@@ -9,8 +9,6 @@ public class calculator
         System.out.print("Press 1 if you are inputting integers, press 2 if you are inputting decimals. ");
         int input = scanner.nextInt(); 
         
-
-
         // OPTION 1: INTEGERS ONLY
         if ( input == 1 )
         { 
