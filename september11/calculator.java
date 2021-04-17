@@ -151,6 +151,7 @@ public class calculator
 
         // OK this would not have been an ideal way to re-run the program. 
         // Granted I was a beginner when I made this calculator and I didn't know methods existed.
+        // The biggest issue about this is that it just copies previous code and you can only rerun the program once rip lol
     }      
 }       
    
