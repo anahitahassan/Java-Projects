@@ -65,12 +65,12 @@ public class calculator
         }
 
         // Run program again?  
-        System.out.print("Would you like to run the program again? Enter 1 for yes and 2 for no");
+        System.out.print("Would you like to run the program again? Enter 1 for yes and 2 for no. ");
         int run = scanner.nextInt();
         
         if ( run == 1 )
         {
-            System.out.println("Would you like to run the program again? Your Answer: Yes");
+            System.out.println("Would you like to run the program again? Your Answer: Yes. ");
 
             while ( run == 1)
             { 
@@ -78,18 +78,18 @@ public class calculator
                 
                 Scanner scannerr = new Scanner(System.in);
 
-                System.out.print("Press 1 if you are inputting integers, press 2 if you are inputting decimals");
+                System.out.print("Press 1 if you are inputting integers, press 2 if you are inputting decimals. ");
                 int inputt = scannerr.nextInt(); 
 
                 if ( inputt == 1 )
                 { 
-                    System.out.print("Enter first integer:");
+                    System.out.print("Enter first integer: ");
                     int a = scannerr.nextInt();
             
-                    System.out.print("Enter second integer:");
+                    System.out.print("Enter second integer: ");
                     int b = scannerr.nextInt();
             
-                    System.out.print("Enter an operator: press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division, and 5 for remainder ");
+                    System.out.print("Enter an operator: press 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division, and 5 for remainder. ");
                     int operator = scannerr.nextInt();
                 
                     //operation
@@ -112,13 +112,13 @@ public class calculator
         
                 else if ( inputt == 2 )
                 {
-                    System.out.print("Enter first decimal number:");
+                    System.out.print("Enter first decimal number: ");
                     double a = scannerr.nextDouble();
             
-                    System.out.print("Enter second decimal number:");
+                    System.out.print("Enter second decimal number: ");
                     double b = scannerr.nextDouble();
             
-                    System.out.print("Enter an operator: press 1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division");
+                    System.out.print("Enter an operator: press 1 for addition, 2 for subtraction, 3 for multiplication, and 4 for division. ");
                     int operator = scannerr.nextInt();
                 
                     //operation
@@ -145,7 +145,7 @@ public class calculator
         }
             
         else if ( run == 2 )
-        {System.out.println("Would you like to run the program again? Your Answer: No");}
+        {System.out.println("Would you like to run the program again? Your Answer: No. ");}
 
         scanner.close();
 
