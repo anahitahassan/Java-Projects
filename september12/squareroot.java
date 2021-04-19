@@ -1,13 +1,16 @@
-//square root project due next thurs 9/19/19
+// square root project due next thurs 9/19/19
+// I'm re-doing this project by myself 4/18/21
 
 import java.util.Scanner;
 
 public class squareroot 
 {
+    // this is our first time using a method! 
+    // int num is passed though this method
+    // it is first divided by 2. 
     public static int main (int num)
     {
         int a;
-        
         int sr = num / 2;
         
         do 
