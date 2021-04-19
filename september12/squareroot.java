@@ -1,5 +1,7 @@
 // square root project due next thurs 9/19/19
 // I'm re-doing this project by myself 4/18/21
+// ok I havent quite figured it out yet
+
 
 import java.util.Scanner;
 
