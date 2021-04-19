@@ -5,34 +5,23 @@ import java.util.Scanner;
 
 public class squareroot 
 {
-    // this is our first time using a method! 
-    // int num is passed though this method
-    // it is first divided by 2. 
-    public static int main (int num)
-    {
-        int a;
-        int sr = num / 2;
-        
-        do 
-        {
-        temp = sr; 
-        sr = ( temp + (num / temp)) / 2;
-        
-        }
-        while (( temp - sr)!=0 ); 
-        return sr; 
-    }
-    
     public static void main(String[] args)
     {
+        Scanner project = new Scanner(System.in);
+        System.out.println("Please enter a number");
+        int a = project.nextInt();
+        project.close();
         
-        System.out.print("Enter any number:");
-        Scanner scanner  = new Scanner(System.in);
-        int number = scanner.nextInt();
-        scanner.close();
+        double b;
         
-        System.out.println("Square root of " + number + " is: " + main(number));
+        double sr = a / 2;
         
+        b = sr; 
+        while (( b - sr)!= 0 ); 
+        {
+            b = sr; 
+            sr = ( b + (a / b)) / 2; 
+        }
+        System.out.println(sr);
     }
-  
 }
