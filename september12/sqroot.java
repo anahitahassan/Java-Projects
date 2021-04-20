@@ -20,7 +20,7 @@ public class sqroot
     public static void main(String[] args)
     {
         String yesno = "yes";
-        do
+        while (yesno == "yes")
         {
             System.out.print("Enter any number:");
             Scanner scanner  = new Scanner(System.in);
@@ -29,7 +29,7 @@ public class sqroot
             System.out.println("Square root of " + number + " is: " + main(number));
 
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
-            String user = scanner.nextLine();
+            String user = scanner.next();
 
             if (user == "no")
             {
@@ -38,7 +38,7 @@ public class sqroot
                 System.out.println("End of program");
             }
         }
-        while (yesno == "yes");
+        
         
     }
 }
