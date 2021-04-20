@@ -29,12 +29,13 @@ public class sqroot
             System.out.println("Square root of " + number + " is: " + main(number));
 
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
-            String user = scanner.nextLine();
+            String user = scanner.next();
 
             if (user == "no")
             {
                 yesno = "no";
                 scanner.close();
+                System.out.println("End of program");
             }
         }
         while (yesno == "yes");
