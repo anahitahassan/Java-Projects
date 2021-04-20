@@ -16,6 +16,33 @@ public class sqroot
         }
         while (( temp - sr)!=0 ); 
         return sr; 
+
+        // Example: say num = 81
+        // int sr = num / 2 => 81/2 = 40
+        // int temp = 40
+        // sr = (40 + (81/40))/2 => (40+2)/2 => 21
+        // while (40-21)=19= !=0 --> this statement is true still. 
+        
+        // Again...
+        // temp = 21
+        // sr = (21 + (81/21))/2 => (21+3)/2 => 12
+        // while (21-12)=9= !=0 --> this statement is true still. 
+        
+        // Again...
+        // temp = 12
+        // sr = (12 + (81/12))/2 => (12 + 6)/2 => 9
+        // while (12-9)=3= !=0 --> this statement is true still. 
+        
+        // Again...
+        // temp = 9
+        // sr = (9+(81/9))/2 => (9+9)/2 => 9 (Ayyyy look at that)
+        // while (9-9)!=0 --> this statement is finally false!
+
+        // so we return sr which is 9. 
+
+        // I don't have 
+
+
     }
     public static void main(String[] args)
     {
