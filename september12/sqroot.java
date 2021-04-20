@@ -18,6 +18,8 @@ public class sqroot
         return sr; 
 
         // Example: say num = 81
+
+        // first round
         // int sr = num / 2 => 81/2 = 40
         // int temp = 40
         // sr = (40 + (81/40))/2 => (40+2)/2 => 21
