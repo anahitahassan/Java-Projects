@@ -7,17 +7,12 @@ public class sqroot
 {
     public static int main (int num)
     {
-        int a;
-        
         int sr = num / 2;
-        
         int temp;
-
         do 
         {
-        temp = sr; 
-        sr = ( temp + (num / temp)) / 2;
-        
+            temp = sr; 
+            sr = ( temp + (num / temp)) / 2;
         }
         while (( temp - sr)!=0 ); 
         return sr; 
@@ -25,7 +20,7 @@ public class sqroot
     public static void main(String[] args)
     {
         String yesno = "yes";
-        while (yesno == "yes")
+        do
         {
             System.out.print("Enter any number:");
             Scanner scanner  = new Scanner(System.in);
@@ -36,15 +31,13 @@ public class sqroot
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
             String user = scanner.nextLine();
 
-
             if (user == "no")
             {
                 yesno = "no";
                 scanner.close();
             }
-
-            
         }
+        while (yesno == "yes");
         
     }
 }
