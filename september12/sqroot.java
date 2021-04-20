@@ -43,7 +43,7 @@ public class sqroot
 
         // I don't have the slightest clue how that algorithm works though. 
     }
-    
+
     public static void main(String[] args)
     {
         String yesno = "yes";
@@ -58,7 +58,6 @@ public class sqroot
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
             String user = scanner.next();
 
-
             // before I used (user == "no"), and it didn't work
             // but .equals works. 
             if (user.equals("no"))
@@ -68,7 +67,5 @@ public class sqroot
                 System.out.println("End of program");
             }
         }
-        
-        
     }
 }
