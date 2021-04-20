@@ -35,12 +35,15 @@ public class sqroot
 
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
             String user = scanner.nextLine();
+
+
             if (user == "no")
             {
                 yesno = "no";
+                scanner.close();
             }
 
-            scanner.close();
+            
         }
         
     }
