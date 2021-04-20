@@ -43,8 +43,6 @@ public class sqroot
         // so we return sr which is 9. 
 
         // I don't have the slightest clue how that algorithm works though. 
-
-
     }
     public static void main(String[] args)
     {
