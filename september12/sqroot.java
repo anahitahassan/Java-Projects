@@ -1,4 +1,3 @@
-// square root project due next thurs 9/19/19
 // THIS FILE WORKS!!!!!!!!!!!!!!!!
 
 import java.util.Scanner;
@@ -44,6 +43,7 @@ public class sqroot
 
         // I don't have the slightest clue how that algorithm works though. 
     }
+    
     public static void main(String[] args)
     {
         String yesno = "yes";
