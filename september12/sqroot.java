@@ -58,6 +58,9 @@ public class sqroot
             System.out.println("Print 'yes' if you would like to re-run program and 'no' if you would not like to re-run.");
             String user = scanner.next();
 
+
+            // before I used (user == "no"), and it didn't work
+            // but .equals works. 
             if (user.equals("no"))
             {
                 yesno = "no";
