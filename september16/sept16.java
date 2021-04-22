@@ -1,10 +1,20 @@
-// idk what this file is for lmfao there is barely any code here
 import java.util.*;
 
-public class Sept16
+public class sept16
 {
-  public static double main(String[] args)
+  public static void main(String[] args)
   {
-    Scanner iDunno = new Scanner(System.in); 
+    Scanner project = new Scanner(System.in);
+    System.out.println("Please enter a number.");
+   
+    int i;
+    int j;
+    int a = project.nextInt();
+    for (i = 1; i <= a; i++) {
+      for (j = 1; j <= i; j++) {
+         System.out.print("*");
+      }
+      System.out.println();
+    }
   }
 }
