@@ -29,8 +29,12 @@ public class sept16
         // let's run through it. say the user said a=4. 
         // i = 1 --> j = 1 --> print * (and since j=1, this only happens once)
         // new line, end of first (/4) iteration of 1st for loop
-        // i = 2 --> j = 1 --> print * (and j will be 1, then 2 since i = 1, so ** is printed)
+        // i = 2 --> j = 1 --> print * (and j will be 1, then 2 since i = 2, so ** is printed)
         // new line, end of second (/4) iteration of 1st for loop
+        // i = 3 --> j = 1 --> print * (and j will be 1, then 2, then 3 since i = 3, so *** is printed)
+        // new line, end of third (/4) iteration of 1st for loop
+        // i = 4 --> j = 1 --> print * (and j will be 1, then 2, then 3, then 4 since i = 4, so **** is printed)
+        // new line, end of fourth (/4) iteration of 1st for loop, loop is complete. 
 
 
 
