@@ -20,6 +20,7 @@ public class sept16
         }
 
         // how does this program work: 
+
         // i and j are initilized but not declared until the for loop
         // we take in the number the user inputed (say the user said 4)
         // for the first for loop, the code inside that loop will iterate 1, 2, 3, 4 times and stop at 4 (a)
@@ -27,6 +28,7 @@ public class sept16
         // of the first loop it is on. (sounds complicated but it really isn't)
         
         // let's run through it. say the user said a=4. 
+        
         // i = 1 --> j = 1 --> print * (and since j=1, this only happens once)
         // new line, end of first (/4) iteration of 1st for loop
         // i = 2 --> j = 1 --> print * (and j will be 1, then 2 since i = 2, so ** is printed)
