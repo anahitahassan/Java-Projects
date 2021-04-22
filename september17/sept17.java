@@ -4,7 +4,6 @@ public class sept17
 {
   public static void main(String[] args)
   {
-   
     Scanner project = new Scanner(System.in);
     System.out.println("Please enter a number.");
     
