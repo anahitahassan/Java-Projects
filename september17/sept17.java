@@ -23,7 +23,9 @@ public class sept17
         // j is set equal to 1 and it is the var that changes (also i from iteration)
         // first iteration: i = 4: j is set equal to (1)*(4) = 4. 
         // second iteration: i = 3: j is set equal to (4)*(3) = 12. 
-        // third iteration: 
+        // third iteration: i = 2: j is set equal to (12)*(2) = 24. 
+        // no more iterations since i > 1 and so the last iteration was i = 2. 
+        // after the for loop, j is printed --> 24. 
 
 
 
