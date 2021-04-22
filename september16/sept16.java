@@ -20,6 +20,8 @@ public class sept16
         }
 
         // how does this program work: 
+        // i and j are initilized but not declared until the for loop
         
+
     }
 }
