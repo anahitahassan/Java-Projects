@@ -26,8 +26,5 @@ public class sept17
         // third iteration: i = 2: j is set equal to (12)*(2) = 24. 
         // no more iterations since i > 1 and so the last iteration was i = 2. 
         // after the for loop, j is printed --> 24. 
-
-
-
     }
 }
