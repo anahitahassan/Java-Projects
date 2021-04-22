@@ -18,5 +18,8 @@ public class sept16
             }
             System.out.println();
         }
+
+        // how does this program work: 
+        
     }
 }
