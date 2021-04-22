@@ -10,10 +10,11 @@ public class sept17
         int i;
         int j = 1;
         int a = project.nextInt(); 
-        for (i = a; i > 1; i--) {
-        j = j * i;
+        for (i = a; i > 1; i--) 
+        {
+            j = j * i;
         }
-        
         System.out.println(j);
+        project.close();
     }
 }
