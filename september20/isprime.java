@@ -9,11 +9,10 @@ public class isprime
         int a = scanner.nextInt();
         scanner.close(); 
             
-        int i;
         int r = 0;
         boolean numberIsPrime = true;
             
-        for (i = 2; i <= (a / 2); i++)
+        for (int i = 2; i <= (a / 2); i++)
         {
             r = a % i;
             if( r == 0)
