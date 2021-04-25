@@ -1,4 +1,4 @@
-public class sept18
+public class mathsqrt
 {
     public static void main(String[] args)
     {
