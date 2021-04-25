@@ -1,5 +1,7 @@
 import java.util.Scanner;
  
+// I don't have the slightest clue on earth what this program is supposed to do. 
+
 public class sept19
 {
     public static void main(String[] args)
