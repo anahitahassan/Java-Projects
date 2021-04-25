@@ -59,6 +59,7 @@ public class squarerootcalc
                 }
                 i++;
             }
+            
             // input is not divisible by any number, set the radical part
             if (input % (i * i) > 0) 
             {
