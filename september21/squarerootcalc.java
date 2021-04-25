@@ -3,7 +3,7 @@
  * of any number, then prints it out in the simplest radical form.
  * 
  * @author: Anahita Hassan (AP Computer Science A, Mr. Jan, Period 1)
- */
+  */
 
 import java.util.Scanner;
     
@@ -59,7 +59,7 @@ public class squarerootcalc
                 }
                 i++;
             }
-            
+
             // input is not divisible by any number, set the radical part
             if (input % (i * i) > 0) 
             {
