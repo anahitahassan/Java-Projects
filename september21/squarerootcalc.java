@@ -24,6 +24,7 @@ public class squarerootcalc
         {
             System.out.println ("Square root is root  " + orgInput);
         }
+        // any input other than 1, 2, 3
         else
         {
             // counter is initialized to 2
