@@ -4,6 +4,7 @@ public class sept18
 {
     public static void main(String[] args)
     {
+        /*
         Scanner input = new Scanner(System.in);
         System.out.println("Please enter an upper bound: ");
 
@@ -17,13 +18,14 @@ public class sept18
             j = 3 * i;
         }
         
-        System.out.println(j);
+        System.out.println(j);*/
 
         // i is set equal to the input from the user, and as long as i remains larger than 1, 
         // j, which is initally 1, will be multiplied by 3
         // this will happen an infinite number of times because i is incremented
         // a super large number is returned 
 
+        /*
         Scanner project = new Scanner(System.in);
         System.out.println("Please enter another upper bound.");
 
@@ -33,7 +35,7 @@ public class sept18
         for (int a = 1; a <= w/3 ; a++) 
         {
             System.out.println(a * 3);
-        }
+        }*/
 
         // here, a = 1, w is user input. 
         // as long as a is less than or equal to w/3, a gets multiplied by 3. 
