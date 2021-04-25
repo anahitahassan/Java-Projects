@@ -22,6 +22,7 @@ public class isprime
             }
         }
         
+        // Statements
         if (numberIsPrime == true)
         {
             System.out.println (a + " is a prime.");
