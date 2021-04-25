@@ -7,7 +7,7 @@
 
 import java.util.Scanner;
     
-public class squareRootCalculator
+public class squarerootcalc
 {
     public static void main(String[] args)
     {
