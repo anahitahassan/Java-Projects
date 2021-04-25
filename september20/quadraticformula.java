@@ -1,6 +1,6 @@
 import java.util.*;
 
-public class program1
+public class quadraticformula
 {
     public static void main(String[] args)
     {
