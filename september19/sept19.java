@@ -12,7 +12,7 @@ public class sept19
         int upperLimit = scanner.nextInt();
         int i = 1;
 
-        while ( (7 * i) < upperLimit || (3 * i) < upperLimit)
+        while ( (7 * i) < upperLimit || (3 * i) < upperLimit ) 
         {
             if ( (3 * i) < (7 * i) )
             {
