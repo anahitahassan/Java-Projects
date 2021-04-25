@@ -7,6 +7,7 @@ public class isprime
         Scanner scanner = new Scanner(System.in);
         System.out.println("Enter the number");
         int a = scanner.nextInt();
+        scanner.close(); 
             
         int i;
         int r = 0;
@@ -30,6 +31,5 @@ public class isprime
         {
             System.out.println (a + " is not a prime.");
         }      
-        scanner.close(); 
     }
 }
