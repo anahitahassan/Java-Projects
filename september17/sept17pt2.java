@@ -6,10 +6,10 @@ public class sept17pt2
   public static void main(String[] args)
   {
    
-    Scanner project = new Scanner(System.in);
+    Scanner input = new Scanner(System.in);
     System.out.println("Please enter a number.");
     
-    int a = input.next.Int();
+    int a = input.nextInt();
     input.nextLine();
     
     int answer = a;
