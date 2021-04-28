@@ -10,7 +10,7 @@ public class updatedsqrt
               
         if (userInput <= 3)
         {
-            System.out.println ("Square root is root  " + userInput);
+            System.out.println ("Square root is ROOT  " + userInput);
         }
         else
         {
@@ -51,9 +51,9 @@ public class updatedsqrt
             else
             {
                 if (outside == 1)
-                    printStatement = "Square root is root  " + inside;
+                    printStatement = "Square root is ROOT  " + inside;
                 else
-                    printStatement = "Square root is " + outside + "  root  " + inside;
+                    printStatement = "Square root is " + outside + "  ROOT  " + inside;
                     
             }
 
