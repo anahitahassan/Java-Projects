@@ -10,7 +10,7 @@ public class sept23
             i--;
         }
         
-        //prints: 5
+        //prints: 5 4 3 2 1
         //4
         //3
         //2
