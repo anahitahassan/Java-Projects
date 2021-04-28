@@ -28,36 +28,5 @@ public class sept23
 
         //prints i=5, i=20, i=42, keeps goin forever -- infinite loop
 
-        //initialize and assign 3 to int variable and change the value
-        int x =3;
-        x = 5;
-            
-        int x = 1-;
-        int y = x/3;
-        x = x % 4; 
-        x++;
-        // ans: 10 -->2 -->3
-        
-        //9. whats wrong iwth this code
-        Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a number");
-        int a = input.nextInt();
-        etc. 
-            // theres no input.nextLine
-            
-            //grading program
-            
-            //ask user for double, truncate number cut off digits
-            //4.23 --> 4
-            
-            x = 4.23
-            double counter = 0
-            while ( x > 1)
-        {
-            x--:
-            counter++;
-        }
-        
-
     }
 }
