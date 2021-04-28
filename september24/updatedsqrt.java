@@ -60,5 +60,7 @@ public class updatedsqrt
             System.out.println (printStatement); 
             
         }
+
+        scanner.close();
     }    
 }
