@@ -4,10 +4,10 @@ public class sept23
     {
         //1. what does following quote print
         int i = 5;
-        while (i == 0)
+        while (i > 0)
         {
-            System.out.println(i);
-            i++;
+            System.out.print(i + " ");
+            i--;
         }
         
         //prints: 5
@@ -15,7 +15,7 @@ public class sept23
         //3
         //2
         //1
-    
+        
         //2. whats wrong with the code
         int a = 5; 
         while (a >= 0)
