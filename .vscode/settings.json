@@ -1,5 +1,11 @@
 {
     "java.project.sourcePaths": [
+        "september9",
+        "september6",
+        "september5",
+        "september4",
+        "september3",
+        "september23",
         "september21",
         "september20",
         "september19",
@@ -10,13 +16,8 @@
         "september12",
         "september11",
         "september10",
-        "september9",
-        "september6",
-        "september5",
-        "september4",
-        "september3",
         "august29",
-        "september23"
+        "september24"
     ]
     // All files are sorted from most recent to least recent, with acception of the last folder opened (that will be at the very bottom.)
 }

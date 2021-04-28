@@ -1,6 +1,6 @@
 import java.util.Scanner;
     
-public class squareRootCalculator2
+public class updatedsqrt
 {
     public static void main(String[] args)
     {
