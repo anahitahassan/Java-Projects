@@ -11,10 +11,6 @@ public class sept23
         }
         
         //prints: 5 4 3 2 1
-        //4
-        //3
-        //2
-        //1
         
         System.out.println();
 
