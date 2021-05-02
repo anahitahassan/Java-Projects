@@ -47,7 +47,7 @@ public class updatedatm
         // as indicated above, we can't even reach this portion of the program until a correct PW has been entered. 
         while (validPW == true)
         {
-            // begin transaction
+            // begin transaction, ask withdraw/deposit?
             if (transaction == true)
             {
                 System.out.println("Press 1 if you want to withdraw. Press 2 if you want to deposit.");
@@ -69,6 +69,8 @@ public class updatedatm
                 }
             }
             
+            // responding to question of withdraw/deposit? : 
+
             // user entered 1 for withdraw
             if (option1 == true)
             {
@@ -77,7 +79,7 @@ public class updatedatm
                 if (amount > 300) // withdraw limit $300
                 {
                     System.out.println("You cannot withdraw more than $300! Enter a different amount");
-                    transaction = false;
+                    //transaction = false;
                 }
                 else 
                 {
