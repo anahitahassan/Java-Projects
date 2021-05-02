@@ -43,6 +43,8 @@ public class updatedatm
             }
         }
         
+        // all of the main 'transaction stuff' happens while validPW == true. 
+        // as indicated above, we can't even reach this portion of the program until a correct PW has been entered. 
         while (validPW == true)
         {
             // begin transaction
