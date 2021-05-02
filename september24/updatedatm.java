@@ -9,7 +9,7 @@ public class updatedatm
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in);
-        System.out.println("Enter the password");
+        System.out.println("Enter the password. ");
             
         // define and initialize variables
         int password = 143637;
@@ -18,8 +18,13 @@ public class updatedatm
         
         boolean validPW = false;
         boolean option1 = false;
+            // set to true when we want to withdraw
         boolean option2 = false;
-        boolean transaction = false; // every new transaction sets it to true
+            // set to true when we want to deposit
+            // note: option1, option2 are set back to false at end for fresh transaction
+        boolean transaction = false; 
+            // every new transaction sets it to true
+            // if PW is correct, this var is set to true, and we can begin withdraw/deposit. 
         
         //check for valid password
         while (scanner.hasNextInt() == true)
