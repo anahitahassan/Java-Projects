@@ -79,7 +79,11 @@ public class updatedatm
                 if (amount > 300) // withdraw limit $300
                 {
                     System.out.println("You cannot withdraw more than $300! Enter a different amount");
-                    //transaction = false;
+                    transaction = false; 
+                    // if we don't say this, then the program goes back to withdraw/deposit Q (which happens when transaction == true)
+                    // we need to keep transaction false so that doesn't happen
+                    // in other words, still having transaction = true allows for fresh transaction. 
+                    // having transaction = false lets us stay in this transaction
                 }
                 else 
                 {
@@ -106,6 +110,8 @@ public class updatedatm
                     }            
                 }
             }
+
+            
             // user entered 2 for deposit
             if (option2 == true)
             {        
