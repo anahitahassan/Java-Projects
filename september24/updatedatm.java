@@ -84,6 +84,7 @@ public class updatedatm
                     // we need to keep transaction false so that doesn't happen
                     // in other words, still having transaction = true allows for fresh transaction. 
                     // having transaction = false lets us stay in this transaction
+                    // also recall that we are still in a while loop that should last forever as long as PW is valid
                 }
                 else 
                 {
@@ -111,7 +112,7 @@ public class updatedatm
                 }
             }
 
-            
+
             // user entered 2 for deposit
             if (option2 == true)
             {        
@@ -136,7 +137,6 @@ public class updatedatm
                 }
             }             
         }     
-
         scanner.close();
     }
 }     
