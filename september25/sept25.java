@@ -37,18 +37,18 @@ public class sept25
         
         //five by five stars:
         
-      //  for (int i = 1; i <= 5; i++ )
-      //  {
-      //     for (int j = 1; j <= 5; j++)
-      //     { 
-      //         System.out.print("*");
-      //     }
-      //     // must finish loop above before moving on
-      //     System.out.println("*");
-      //  }
+        //  for (int i = 1; i <= 5; i++ )
+        //  {
+        //     for (int j = 1; j <= 5; j++)
+        //     { 
+        //         System.out.print("*");
+        //     }
+        //     // must finish loop above before moving on
+        //     System.out.println("*");
+        //  }
         
         
-       // 2.     ....5
+        // 2.     ....5
         //       ...44
         //       etc
         
@@ -67,24 +67,10 @@ public class sept25
            }
          System.out.println();
         }
-                
-              
-
-               
+    }      
 }
          
       
-        
-        
-        
-        //MISSION
-        
-        
-        
-        
-        
-        
-    }
     
 
       
