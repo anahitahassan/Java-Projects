@@ -1,5 +1,3 @@
-
-
 public class sept25
 {
     public static void main(String[] args)
