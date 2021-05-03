@@ -2,17 +2,22 @@ public class sept25
 {
     public static void main(String[] args)
     { 
+        /*
+        // EXAMPLE 1: INT --> DOUBLE
         int x = 98;
-        double y = 55.34;
         
-        // turns int into double
+        // now creating a new double variable and setting our old int variable equal to that
+        // new double variable will turn that int variable into a double. 
         
         double xprime = x;
-        System.out.println(xprime);
-        
-        
-        //int yprime = (int)y;
-        //System.out.println(yprime);
+        System.out.println(xprime); // 98.0 is printed, instead of just 98
+        */
+
+
+        // EXAMPLE 2: DOUBLE --> INT
+        double y = 58.37;
+        int yprime = (int)y;
+        System.out.println(yprime);
         
         //turms double into integer, cuts off the decimal part
         
