@@ -29,7 +29,7 @@ public class sept25
         
         System.out.println("x is equal to " + x + " but xprime is equal to " + xprime); 
         System.out.println("y is equal to " + y + " but yprime is equal to " + yprime); 
-        */
+        
         
         // EXAMPLE 4: nested for loops -----------------------------------------------------------------------------
         //five by five stars:
@@ -45,26 +45,27 @@ public class sept25
         }
         
         
-        // 2.     ....5
-        //       ...44
-        //       etc
-        
        
-        /*
+        
         for ( int i = 1; i <= 5; i++)
         { 
-           for ( int j = 4; j >= 1; j--)
-           {
-               System.out.print(".");
-           }
-           
-           for ( int k = 1; k <= 5; k++)
-           {
-               System.out.print(k);
-           }
-         System.out.println();
+            for ( int j = 4; j >= 1; j--)
+            {
+                System.out.print(".");
+            }
+            // 4 dots are printed
+            for ( int k = 1; k <= 5; k++)
+            {
+                System.out.print(k);
+            }
+            // 12345 is printed
+
+            System.out.println();
+            // next line is created
         }
+
         */
+        
     }      
 }
          
