@@ -3,7 +3,7 @@ public class sept25
     public static void main(String[] args)
     { 
         /*
-        // EXAMPLE 1: INT --> DOUBLE -------------------------------------------------------------------------
+        // EXAMPLE 1: INT --> DOUBLE ------------------------------------------------------------------------
         int x = 98;
         
         // now creating a new double variable and setting our old int variable equal to that
@@ -13,14 +13,14 @@ public class sept25
         System.out.println(xprime); // 98.0 is printed, instead of just 98
         
 
-        // EXAMPLE 2: DOUBLE --> INT -------------------------------------------------------------------------
+        // EXAMPLE 2: DOUBLE --> INT ------------------------------------------------------------------------
         double y = 58.37;
         int yprime = (int)y;
         System.out.println(yprime);
         // here, the decimal stuff is truncated so just 58 is printed. 
         
         
-        // EXAMPLE 3: -----------------------------------------------------------------------------------------
+        // EXAMPLE 3: ---------------------------------------------------------------------------------------
         int x = 98;
         double y = 58.37;
 
@@ -31,7 +31,7 @@ public class sept25
         System.out.println("y is equal to " + y + " but yprime is equal to " + yprime); 
         
         
-        // EXAMPLE 4: nested for loops -----------------------------------------------------------------------------
+        // EXAMPLE 4: nested for loops ----------------------------------------------------------------------
         //five by five stars:
         
         for (int i = 1; i <= 5; i++ )
@@ -44,9 +44,8 @@ public class sept25
             System.out.println("*");
         }
         
-        
-       
-        
+        // EXAMPLE 5: nested for loops ----------------------------------------------------------------------
+    
         for ( int i = 1; i <= 5; i++)
         { 
             for ( int j = 4; j >= 1; j--)
@@ -63,9 +62,7 @@ public class sept25
             System.out.println();
             // next line is created
         }
-
         */
-        
     }      
 }
          
