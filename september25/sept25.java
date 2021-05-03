@@ -2,13 +2,13 @@ public class sept25
 {
     public static void main(String[] args)
     { 
-        //int x = 98;
-        //double y = 55.34;
+        int x = 98;
+        double y = 55.34;
         
         // turns int into double
         
-        //double xprime = x;
-        //System.out.println(xprime);
+        double xprime = x;
+        System.out.println(xprime);
         
         
         //int yprime = (int)y;
@@ -51,7 +51,7 @@ public class sept25
         //       etc
         
        
-             
+        /*
         for ( int i = 1; i <= 5; i++)
         { 
            for ( int j = 4; j >= 1; j--)
@@ -65,6 +65,7 @@ public class sept25
            }
          System.out.println();
         }
+        */
     }      
 }
          
