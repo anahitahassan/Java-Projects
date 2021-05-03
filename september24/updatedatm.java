@@ -1,6 +1,5 @@
 // this is an updated version of september23/atm.java
-// here you have a starting balance of 5000
-// you can withdraw and deposit as many times as you want and the balance will change accordingly. 
+// here you have a starting balance of 5000 and you can withdraw and deposit as many times as you want and the balance will change accordingly. 
 
 import java.util.Scanner;
 
