@@ -3,7 +3,7 @@ public class sept25
     public static void main(String[] args)
     { 
         /*
-        // EXAMPLE 1: INT --> DOUBLE
+        // EXAMPLE 1: INT --> DOUBLE -------------------------------------------------------------------------
         int x = 98;
         
         // now creating a new double variable and setting our old int variable equal to that
@@ -11,24 +11,26 @@ public class sept25
         
         double xprime = x;
         System.out.println(xprime); // 98.0 is printed, instead of just 98
-        */
+        
 
 
-        // EXAMPLE 2: DOUBLE --> INT
+        // EXAMPLE 2: DOUBLE --> INT -------------------------------------------------------------------------
         double y = 58.37;
         int yprime = (int)y;
         System.out.println(yprime);
+        // here, the decimal stuff is truncated so just 58 is printed. 
+        */
         
-        //turms double into integer, cuts off the decimal part
+        // EXAMPLE 3: -------------------------------------------------------------------------
+        int x = 98;
+        double y = 58.37;
+
+        double xprime = x; // 98 --> 98.0
+        int yprime = (int)y; // 58.37 --> 58
         
-        //double xprime = x;
-        //int yprime = (int)y;
-        
-        //System.out.println("x is equal to " + x);
-        //System.out.println("xprime is equal to " + xprime);
-        //System.out.println("y is equal to " + y);
-        //System.out.println("yprime is equal to " + yprime);
-        
+        System.out.println("x is equal to " + x + "but xprime is equal to" + xprime); 
+        System.out.println("y is equal to " + y + "but yprime is equal to" + yprime); 
+
         
         //nested for loops:
         // five stars:
