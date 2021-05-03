@@ -13,44 +13,36 @@ public class sept25
         System.out.println(xprime); // 98.0 is printed, instead of just 98
         
 
-
         // EXAMPLE 2: DOUBLE --> INT -------------------------------------------------------------------------
         double y = 58.37;
         int yprime = (int)y;
         System.out.println(yprime);
         // here, the decimal stuff is truncated so just 58 is printed. 
-        */
         
-        // EXAMPLE 3: -------------------------------------------------------------------------
+        
+        // EXAMPLE 3: -----------------------------------------------------------------------------------------
         int x = 98;
         double y = 58.37;
 
         double xprime = x; // 98 --> 98.0
         int yprime = (int)y; // 58.37 --> 58
         
-        System.out.println("x is equal to " + x + "but xprime is equal to" + xprime); 
-        System.out.println("y is equal to " + y + "but yprime is equal to" + yprime); 
-
+        System.out.println("x is equal to " + x + " but xprime is equal to " + xprime); 
+        System.out.println("y is equal to " + y + " but yprime is equal to " + yprime); 
+        */
         
-        //nested for loops:
-        // five stars:
-        //     for (int i = 1; i <= 5; i++ )
-        //      {
-        //        System.out.println("*");
-        //      }
-        
-        
+        // EXAMPLE 4: nested for loops -----------------------------------------------------------------------------
         //five by five stars:
         
-        //  for (int i = 1; i <= 5; i++ )
-        //  {
-        //     for (int j = 1; j <= 5; j++)
-        //     { 
-        //         System.out.print("*");
-        //     }
-        //     // must finish loop above before moving on
-        //     System.out.println("*");
-        //  }
+        for (int i = 1; i <= 5; i++ )
+        {
+            for (int j = 1; j <= 5; j++)
+            { 
+                System.out.print("*");
+            }
+            // must finish loop above before moving on
+            System.out.println("*");
+        }
         
         
         // 2.     ....5
