@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class introToMethods
 {
     public static void main(String[] args)
@@ -7,6 +5,7 @@ public class introToMethods
         counter();
         counter();
     }
+    
     public static void counter()
     {
         int x = 1;
