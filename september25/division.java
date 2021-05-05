@@ -14,7 +14,7 @@ public class division
         int s = a / b; // getting the "main" number
         int r = a % b; // getting the remainder (which will be a whole number)
         int q = (r * 10)/ b; // in 'mixed' fractions the remainder is divided by the original divider
-        // but we also need to multiply 
+        // but we also need to multiply by 10
 
         if (r == 0)
         {
