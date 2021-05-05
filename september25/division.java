@@ -24,12 +24,12 @@ public class division
 
         if (r == 0)
         {
-            System.out.println("The answer is " + a/b);
+            System.out.println("The answer is " + a/b); 
         } 
         
         else
         {
-            System.out.println("The answer is " + s + "." + q);
+            System.out.println("The answer is " + s + "." + q); 
         }
         
         scanner.close();
