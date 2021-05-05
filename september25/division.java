@@ -1,6 +1,3 @@
-/*
- * @author: Anahita Hassan
- */
 import java.util.Scanner;
 
 public class division
