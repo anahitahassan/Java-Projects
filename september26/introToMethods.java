@@ -10,17 +10,21 @@ public class introToMethods
     public static void counter()
     {
         int x = 1;
-        while( x < 21)
+        while( x < 9)
         {
             System.out.print(x + ", ");
             x++;
+            if (x == 10)
+            {
+                System.out.print(x);
+            }
         }
         System.out.println();
     }
 
     public static void counterStatement(int var)
     {
-        if (y = 9)
+        if (var > 9)
         {
             System.out.println("I love cheese.");
         }
