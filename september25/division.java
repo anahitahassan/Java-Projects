@@ -14,7 +14,8 @@ public class division
         int s = a / b; // getting the "main" number
         int r = a % b; // getting the remainder (which will be a whole number)
         int q = (r * 10)/ b; // in 'mixed' fractions the remainder is divided by the original divider
-        
+        // but we also 
+
         if (r == 0)
         {
             System.out.println("The answer is " + a/b);
