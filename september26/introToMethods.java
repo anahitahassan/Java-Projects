@@ -3,7 +3,8 @@ public class introToMethods
     public static void main(String[] args)
     {
         counter();
-        counter();
+        int e = 10;
+        counterStatement(e);
     }
 
     public static void counter()
@@ -17,7 +18,7 @@ public class introToMethods
         System.out.println();
     }
 
-    public static void counter()
+    public static void counterStatement(int var)
     {
         if (y = 9)
         {
