@@ -6,7 +6,7 @@ public class sept17pt2
     public static void main(String[] args)
     {
         Scanner input = new Scanner(System.in);
-        System.out.println("Please enter a number:  ");
+        System.out.println("Enter a number:  ");
         
         int a = input.nextInt();
         input.nextLine();

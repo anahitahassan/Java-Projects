@@ -1,6 +1,7 @@
 import java.util.Scanner;
 
 // ok the issue with this program is when I ask it to rerun, it just keeps going and won't ask me again (yess or no) if I want the program to rerun. 
+// updated atm machine and sqrt calculator are in september24 folder
 
 public class newcalculator 
 {
