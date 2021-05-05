@@ -4,6 +4,7 @@ public class sept16
 {
     public static void main(String[] args)
     {
+        // names scanner 'project' --> maybe next time name scanner with a less important term
         Scanner project = new Scanner(System.in);
         System.out.println("Please enter a number.");
     
