@@ -5,7 +5,7 @@ public class introToMethods
         counter();
         counter();
     }
-    
+
     public static void counter()
     {
         int x = 1;
@@ -15,6 +15,14 @@ public class introToMethods
             x++;
         }
         System.out.println();
+    }
+
+    public static void counter()
+    {
+        if (y = 9)
+        {
+            System.out.println("I love cheese.");
+        }
     }
     
 }
