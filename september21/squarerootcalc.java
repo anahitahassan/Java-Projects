@@ -1,9 +1,5 @@
-/**
- * The program takes user input from the keyboard and calculates square root 
- * of any number, then prints it out in the simplest radical form.
- * 
- * @author: Anahita Hassan (AP Computer Science A, Mr. Jan, Period 1)
-  */
+// The program takes user input from the keyboard and calculates square root of any number, 
+// then prints it out in the simplest radical form.
 
 import java.util.Scanner;
     
