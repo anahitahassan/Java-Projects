@@ -2,10 +2,9 @@ public class namingConventions
 {
     public static void main(String[] args)
     {
-        // Typical rules: 
+        // Typical rules: camel case for compound words
             // start with lowercase letter (ex. int xyz)
             // extra words start uppercase (ex. int smallTable, bigFatHuman)
-            // this is konwn as camel case. 
             // no space allowed, so 2nd word uppercase is uppercase to be distinguished
         // Mandatory rules:
             // never start with number
