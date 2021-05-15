@@ -9,8 +9,7 @@ public class sept12
     }
     // printed when i = 3, 4, 5, ... 8, 9. 
     // 7 times
-
-    // useful for whe you know exactly how many times it should run
+    // useful for when you know exactly how many times it should run
       
     //QUIZ NEXT WEDNESDAY ;;; THIS WONT BE ON QUIZ
     //proj due next thurs
