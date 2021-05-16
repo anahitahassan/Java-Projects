@@ -73,7 +73,6 @@ public class atmUpdated
         }
         
         System.out.println("Would you like to complete another transaction? Press 1 for yes and 2 for no");
-        int a = scanner.nextInt();
 
         scanner.close();
 
