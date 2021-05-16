@@ -27,6 +27,8 @@ public class sept27
         }
 
         scanner.close();
+
+        // this program divides 1st number by second number. 
                   
     }
 }
