@@ -29,6 +29,9 @@ public class sept27
         scanner.close();
 
         // this program divides 1st number by second number. 
+        // we have the base division section (liek 10/3 is 3.333 --> 3.)
+        // to find the fraction part we just take the reminader and divide it by the divsor again
+        
                   
     }
 }
