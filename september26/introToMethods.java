@@ -2,6 +2,7 @@ public class introToMethods
 {
     public static void main(String[] args)
     {
+        // calling a method: 
         counter();
         // method where you can pass a variable: 
         int e = 10;

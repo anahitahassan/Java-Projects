@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class sept17pt2
@@ -23,8 +22,7 @@ public class sept17pt2
         System.out.println(answer);
         input.close();
 
-        // we copy the input a and set it equal to answer
-        // we then decrease a by one
+        // we copy the input a and set it equal to answer, we then decrease a by one
         // anwer is now multipled by a and that is new value of answer
         // a is decremented again
         // answer is multiplied by a and that is new value of answer

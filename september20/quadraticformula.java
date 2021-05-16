@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; // needed for the Math.sqrt function
 
 public class quadraticformula
 {
