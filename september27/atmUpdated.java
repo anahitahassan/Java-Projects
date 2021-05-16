@@ -87,6 +87,9 @@ public class atmUpdated
             {
             }
          }
+
+    scanner.close();
+    
    }
    
 }
