@@ -8,6 +8,7 @@ public class sept27
     public static void main (String[] args)
     {
         Scanner scanner = new Scanner(System.in); 
+        
         System.out.println("Enter the 1st number");
         int a = scanner.nextInt();
       
