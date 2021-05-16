@@ -27,6 +27,8 @@ public class sept27
         {
             System.out.println("The answer is " + s + "." + q);
         }
+
+        scanner.close();
                   
     }
 }
