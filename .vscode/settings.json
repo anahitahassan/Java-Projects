@@ -5,6 +5,8 @@
         "september5",
         "september4",
         "september3",
+        "september27",
+        "september26",
         "september25",
         "september24",
         "september23",
@@ -19,8 +21,7 @@
         "september11",
         "september10",
         "august29",
-        "september26",
-        "september27"
+        "september30"
     ]
     // All files are sorted from most recent to least recent, with acception of the last folder opened (that will be at the very bottom.)
 }
