@@ -5,7 +5,7 @@ public class sept30
         int x = 3;
         int y = 9;
         int z = add(x,y);
-        System.out.println(z);
+        System.out.println(z); // since vars representing 3 and 9 are passed, 12 is printed. 
 
         System.out.println(add(100,100));
     }
