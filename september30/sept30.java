@@ -14,7 +14,6 @@ public class sept30
     {
         int answer = a + b;
         return answer;
-        
     }
     
 }
