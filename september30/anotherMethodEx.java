@@ -7,6 +7,8 @@ public class anotherMethodEx
         System.out.println(i);
         
     }
+
+    // here, it says void after public static, meaning nothing is returned. 
     public static void doThis(int i)
     {
         i = 3;
