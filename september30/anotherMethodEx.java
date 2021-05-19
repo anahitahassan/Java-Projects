@@ -1,4 +1,4 @@
-public class sept20program1
+public class anotherMethodEx
 {
   public static void main(String[] args)
   {
