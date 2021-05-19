@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class sept30
 {
     public static void main(String[] args)
