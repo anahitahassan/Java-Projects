@@ -24,5 +24,3 @@ public class tttboard
     }
     
 }
-
-//tic tac toe project due next week?
