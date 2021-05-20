@@ -22,5 +22,4 @@ public class tttboard
        System.out.println("---|---|---"); 
        System.out.println(" g | h | i "); 
     }
-    
 }
