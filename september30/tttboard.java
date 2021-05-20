@@ -1,4 +1,3 @@
-
 import java.util.*;
 
 public class tttboard
@@ -10,14 +9,9 @@ public class tttboard
         
         Scanner scanner = new Scanner(System.in);
         System.out.println("Player 1 (X): enter the designated letter for the location on the board");
-        int aa = scanner.nextInt();
         
         counter(); 
-        
-     
-
-        
-
+        scanner.close();
     }
     
     public static void counter()
