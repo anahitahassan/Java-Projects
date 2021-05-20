@@ -1,3 +1,5 @@
+// I won't end up using this board since I need to change vars
+
 import java.util.*;
 
 public class tttboard
