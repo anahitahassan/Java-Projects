@@ -1,5 +1,3 @@
-//import java.util.*;
-
 public class oct1
 {
     public static void main(String[] args)
