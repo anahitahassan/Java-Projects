@@ -1,7 +1,7 @@
 
 import java.util.*;
 
-public class 8ball
+public class oct1
 {
     public static void main(String[] args)
     {
