@@ -1,5 +1,3 @@
-import java.util.*;
-
 public class eightball
 {
     public static void main(String[] args)
