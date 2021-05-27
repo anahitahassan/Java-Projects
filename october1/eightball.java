@@ -46,16 +46,5 @@ public class eightball
         } else if ( (100*x) < 100 ){
           System.out.println("Signs point to yes."); 
         }
-       
-     
     }
-      
-   
 }     
-        
-      
-        
-        
-        
-    
-   
