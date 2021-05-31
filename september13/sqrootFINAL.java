@@ -1,5 +1,4 @@
 // THIS FILE WORKS!!!!!!!!!!!!!!!!
-// moved it into september13 folder
 
 import java.util.Scanner;
 
