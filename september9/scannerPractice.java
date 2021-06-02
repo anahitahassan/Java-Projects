@@ -1,4 +1,4 @@
-import java.util.*;
+import java.util.*; // you need to import java.util in order to use scanner function
 
 public class scannerPractice
 {
