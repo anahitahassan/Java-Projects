@@ -7,10 +7,9 @@ public class sept12
     {
         System.out.println("hello");
     }
+    
     // printed when i = 3, 4, 5, ... 8, 9. 
     // useful for when you know exactly how many times it should run
       
-    //QUIZ NEXT WEDNESDAY ;;; THIS WONT BE ON QUIZ
-    //proj due next thurs
   }
 }
