@@ -1,5 +1,6 @@
 public class anotherMethodEx
 {
+    // MAIN
     public static void main(String[] args)
     {
         int i = 2;
@@ -9,6 +10,7 @@ public class anotherMethodEx
         // even after we call that method, i doesn't change. 
     }
 
+    // method: doThis
     // here, it says void after public static, meaning nothing is returned. 
     public static void doThis(int j)
     {
