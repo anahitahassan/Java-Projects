@@ -32,7 +32,7 @@ public class sept27
         // we have the base division section (liek 10/3 is 3.333 --> 3.)
         // to find the fraction part we just take the reminader and divide it by the divsor again
         // (remainder 1/3 --> 0.3)
-        // we print those together. 
+        // we print those together with a "." in between. 
                   
     }
 }
