@@ -11,6 +11,7 @@ public class introToMethods
         counterStatement(e);
     }
 
+    // this method doesn't take in any variables
     public static void counter()
     {
         int x = 1;
