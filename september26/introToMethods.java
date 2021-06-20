@@ -5,6 +5,7 @@ public class introToMethods
     {
         // calling a method: 
         counter();
+        
         // method where you can pass a variable: 
         int e = 10;
         counterStatement(e);
