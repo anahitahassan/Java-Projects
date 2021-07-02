@@ -32,5 +32,7 @@ public class scratchwork
             // say a = 2; b = 7; c = 4; d = 7; and op = 1
             // 2/7 + 4/7 = 6/7 
         }
+
+        scanner.close();
     }   
 }
