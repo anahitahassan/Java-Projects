@@ -26,14 +26,11 @@ public class scratchwork
                 //same denominator, simply adds the numerators
             { 
                 String name = ((a+c)+ "/" + b); 
+                System.out.print(name);
             }
             
             // say a = 2; b = 7; c = 4; d = 7; and op = 1
             // 2/7 + 4/7 = 6/7 
         }
-        
-        System.out.print(name);
-        
-    }
-    
+    }   
 }
