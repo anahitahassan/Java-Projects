@@ -1,3 +1,10 @@
+/*  This file works well but I didn't write the code for the rest of the program. 
+    This program takes 2 fractiosn and adds them. 
+    So far, it only prints improper fractions, and only does addition. 
+    My main focus should be making it work for proper fractions. 
+    And I also need to make it work for subtraction, multiplication, and division. 
+*/
+
 import java.util.*;
 
 public class scratchwork
