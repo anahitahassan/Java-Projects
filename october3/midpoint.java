@@ -4,8 +4,8 @@ public class midpoint
 {
     public static void main(String[] args)
     {
-      boolean midpoint = Midpoint (-1, 4, 5, -6);
-      System.out.println(midpoint);     
+        boolean midpoint = Midpoint (-1, 4, 5, -6);
+        System.out.println(midpoint);     
     }
     
     public static boolean Midpoint(int x1, int x2, int y1, int y2)
