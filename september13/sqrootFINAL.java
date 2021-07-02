@@ -1,5 +1,4 @@
 // THIS FILE WORKS!!!!!!!!!!!!!!!!
-// moved it into september13 folder
 
 import java.util.Scanner;
 
@@ -42,7 +41,7 @@ public class sqrootFINAL
 
         // so we return sr which is 9. 
 
-        // I don't have the slightest clue how that algorithm works though. 
+        // I don't have the slightest clue how that algorithm works though. Ahhhhhhh
     }
 
     public static void main(String[] args)

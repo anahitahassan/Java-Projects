@@ -2,6 +2,7 @@ public class eightball
 {   
     public static void main(String[] args)
     {
+        // don't need to import to use math.random
         double x = Math.random();
         if ( (100*x) < 5 ){
           System.out.println("It is certain.");  

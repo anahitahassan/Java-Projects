@@ -1,4 +1,4 @@
-// I won't end up using this board since I need to change vars
+// I won't end up using this board since I need to be able to change vars in another method
 
 import java.util.*;
 

@@ -1,14 +1,17 @@
 public class introToMethods
 {
+    // 'main' method
     public static void main(String[] args)
     {
         // calling a method: 
         counter();
+        
         // method where you can pass a variable: 
         int e = 10;
         counterStatement(e);
     }
 
+    // this method doesn't take in any variables
     public static void counter()
     {
         int x = 1;
