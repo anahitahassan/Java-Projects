@@ -20,8 +20,7 @@ public class scratchwork
         System.out.println("Pick an operation: enter 1 for addition, 2 for subtraction, 3 for multiplication, 4 for division");
         int op = scanner.nextInt();
         
-        if ( op == 1 )
-            //only addition
+        if ( op == 1 ) //only addition
         { 
             if (b == d) 
                 //same denominator, simply adds the numerators
