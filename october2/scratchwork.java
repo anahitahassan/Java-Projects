@@ -31,7 +31,7 @@ public class scratchwork
             
         }
         
-        System.out.println(name);
+        System.out.print(name);
         
     }
     
