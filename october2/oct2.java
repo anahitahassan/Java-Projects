@@ -5,12 +5,13 @@ public class oct2
     String x = "jack";
     String y = "jack";
       
-    if ( x .equals(y) )
+    if ( x.equals(y) )
     {
       System.out.println("hello");
     }
-      
-    //int: " == "
-    //String: " x .equals(y) "          
+    
+    // IMPORTANT: 
+    // int: " == "
+    // String: " x .equals(y) "          
   }
 }
