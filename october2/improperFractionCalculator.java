@@ -7,7 +7,7 @@
 
 import java.util.*;
 
-public class scratchwork
+public class improperFractionCalculator
 {
     public static void main(String[] args)
     {
