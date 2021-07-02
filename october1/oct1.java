@@ -7,6 +7,5 @@ public class oct1
             
         double x = Math.random();
         System.out.println(10*x);
-
     }
 }
