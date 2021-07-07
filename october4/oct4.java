@@ -16,7 +16,7 @@ public class oct4
         } 
         i++;
 
-        // (3)/(5) 
+        // (3)/(5) will print to 0 since they round down
         // we are tyring to divide a by b and print it as a decimal. 
         // when you simply divide a by b (and they are ints) it will round. 
     }
