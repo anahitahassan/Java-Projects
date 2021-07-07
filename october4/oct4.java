@@ -6,15 +6,18 @@ public class oct4
         int b = 9;
         int i = 2; 
         
-        if ( a / b == 1) {
-            System.out.println("1"); }
-            
-        if (a % i == 0 && b % i == 0){
-            System.out.println((a/i)/(b/i)); } 
+        if ( a / b == 1 ) 
+        {
+            System.out.println("1"); 
+        }    
+        if (a % i == 0 && b % i == 0)
+        {
+            System.out.println((a/i)/(b/i)); 
+        } 
         i++;
-        
 
-  
-     
+        // (3)/(5) 
+        // we are tyring to divide a by b and print it as a decimal. 
+        // when you simply divide a by b (and they are ints) it will round. 
     }
 }
