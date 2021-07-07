@@ -1,9 +1,9 @@
 import java.util.Scanner;
 /**
- * Tic-Tac-Toe: Two-player console, non-graphics, non-OO version.
+ * Tic-Tac-Toe: Two-player console, non-graphics.
  * All variables/methods are declared as static (belong to the class)
- *  in the non-OO version.
  */
+
 public class tictactoe {
    // Name-constants to represent the seeds and cell contents
    public static final int EMPTY = 0;
@@ -18,10 +18,8 @@ public class tictactoe {
  
    // The game board and the game status
    public static final int ROWS = 3, COLS = 3; // number of rows and columns
-   public static int[][] board = new int[ROWS][COLS]; // game board in 2D array
-                                                      //  containing (EMPTY, CROSS, NOUGHT)
-   public static int currentState;  // the current state of the game
-                                    // (PLAYING, DRAW, CROSS_WON, NOUGHT_WON)
+   public static int[][] board = new int[ROWS][COLS]; // game board in 2D array containing (EMPTY, CROSS, NOUGHT)
+   public static int currentState;  // the current state of the game (PLAYING, DRAW, CROSS_WON, NOUGHT_WON)
    public static int currentPlayer; // the current player (CROSS or NOUGHT)
    public static int currntRow, currentCol; // current seed's row and column
  
