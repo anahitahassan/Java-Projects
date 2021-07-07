@@ -1,3 +1,4 @@
+// this file is identical to the midpoint.java file
 public class midpointp2
 {
     public static void main(String[] args)
@@ -12,7 +13,7 @@ public class midpointp2
         double y = (double)(y1 + y2)/2;
         System.out.println("(" + x + "," + y + ")"); 
         
-        
+
         if ( x % 1 == 0 && y % 1 == 0 && x >= 0 && y >= 0 )
         {
             return true;
