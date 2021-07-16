@@ -10,26 +10,11 @@ public class methodsreview
     }
     // quiz next wednesday/thursday   10/16 10/17  
     
-    //b automatically becomes the int a, a becomes the int b, etc...    
     public static int stuff(int a, int b)
     {
        int y = a + b; 
        return y; 
     }
 }
-        
-    
-// public static void main( String[] args ) 
-//    {
-  //     int b = 5;
-    //   int a = 6;
-      // String c = "hello";
-       //System.out.println(stuff(b,9, c, true));
-    
-// quiz next wednesday/thursday   10/16 10/17  
-    
- //   public static int stuff(int a, int b, String c, boolean d )
- //   {
-  //     System.out.println(a); 
-  //     return b; 
-  //  }   
+
+// So 11 (5+6) is printed because top -> int a and bottom -> int b
