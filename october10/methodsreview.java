@@ -1,6 +1,4 @@
 //methods and returns
-import java.util.*;
-
 public class methodsreview 
 {
     public static void main( String[] args )
