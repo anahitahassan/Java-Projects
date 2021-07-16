@@ -10,7 +10,7 @@ public class methodsreview
        
        System.out.println(stuff(top,bottom));
     }
-// quiz next wednesday/thursday   10/16 10/17  
+    // quiz next wednesday/thursday   10/16 10/17  
     
     //b automatically becomes the int a, a becomes the int b, etc...    
     public static int stuff(int top, int bottom)
@@ -20,7 +20,7 @@ public class methodsreview
     }
 }
         
-        
+    
 // public static void main( String[] args ) 
 //    {
   //     int b = 5;
@@ -35,11 +35,3 @@ public class methodsreview
   //     System.out.println(a); 
   //     return b; 
   //  }   
-    
-    
-        
-        
-    
-    
-
-      
