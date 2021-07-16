@@ -1,8 +1,8 @@
 /** 
  * 2 person Tic Tac Toe game. 
  * It prints out a graphical output of the board after each turn.
+ * this version of the tictactoe games uses char variables and do function
  */
-
 import java.util.*;
 
 public class FINALTICTACTOE 
