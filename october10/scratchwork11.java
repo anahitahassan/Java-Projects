@@ -47,7 +47,7 @@ public class scratchwork11
         
    public static int stuff(int top, int bottom)
     {
-       int x = top%bottom;
+       int x = top % bottom;
            
        if ( x == 0);
        {
