@@ -1,131 +1,149 @@
 if (location == 'a')
     {
-                // check if the location is already taken
-                if (a != 'a')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else // location 'a' can be taken by the player
-                {
-                    a = player;
-                    error = false;
-                }      
-            }
-            else if (location == 'b')
-            {
-                // check if the location is already taken
-                if (b != 'b')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    b = player;
-                    error = false;
-                }   
-            }
-            else if (location == 'c')
-            {
-                // check if the location is already taken
-                if (c != 'c')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    c = player;
-                    error = false;
-                }    
-            }
-            else if (location == 'd')
-            {
-                // check if the location is already taken
-                if (d != 'd')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    d = player;
-                    error = false;
-                } 
-            }
-            else if (location == 'e')
-            {
-                // check if the location is already taken
-                if (e != 'e')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    e = player; 
-                    error = false; 
-                }   
-            }
-            else if (location == 'f')
-            {
-                // check if the location is already taken
-                if (f != 'f')
-                {
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    f = player;
-                    error = false;
-                }    
-            }
-            else if (location == 'g')
-            {
-                // check if the location is already taken
-                if (g != 'g')
-                {        
-                    System.out.println("Location " + location + " is already taken!");
-                    error = true;
-                }
-                else
-                {
-                    g = player;
-                    error = false;
-                }   
-            }
-            else if (location == 'h')
-            {
-                // check if the location is already taken
-                if (h != 'h')
-                {
-                    error = true;
-                    System.out.println("Location " + location + " is already taken!"); 
-                }
-                else
-                {
-                    h = player;
-                    error = false;
-                } 
-            }
-            else if ( location == 'i')
-            {
-                // check if the location is already taken
-                if (i != 'i')
-                {
-                    error = true;
-                    System.out.println("Location " + location + " is already taken!"); 
-                }
-                else
-                {
-                    i = player;
-                    error = false;
-                } 
-            }
-            else
-            {
-                error = true;
-                System.out.println("Wrong location chosen!");        
-            }
+        // check if the location is already taken
+        if (a != 'a')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else // location 'a' can be taken by the player
+        {
+            a = player;
+            error = false;
+        }      
+    }
+
+    else if (location == 'b')
+    {
+        // check if the location is already taken
+        if (b != 'b')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else
+        {
+            b = player;
+            error = false;
+        }   
+    }
+
+    else if (location == 'c')
+    {
+        // check if the location is already taken
+        if (c != 'c')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else
+        {
+             c = player;
+            error = false;
+        }    
+    }
+
+    else if (location == 'd')
+    {
+        // check if the location is already taken
+        if (d != 'd')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else
+        {
+            d = player;
+            error = false;
+        } 
+    }
+
+    else if (location == 'e')
+    {
+        // check if the location is already taken
+        if (e != 'e')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else
+        {
+            e = player; 
+            error = false; 
+        }   
+    }
+
+    else if (location == 'f')
+    {
+        // check if the location is already taken
+        if (f != 'f')
+        {
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+
+        else
+        {
+            f = player;
+            error = false;
+        }    
+    }
+
+    else if (location == 'g')
+    {
+        // check if the location is already taken
+        if (g != 'g')
+        {        
+            System.out.println("Location " + location + " is already taken!");
+            error = true;
+        }
+        
+        else
+        {
+            g = player;
+            error = false;
+        }   
+    }
+
+    else if (location == 'h')
+    {
+        / check if the location is already taken
+        if (h != 'h')
+        {
+            error = true;
+            System.out.println("Location " + location + " is already taken!"); 
+        }
+
+        else
+        {
+            h = player;
+            error = false;
+        } 
+    }
+
+    else if ( location == 'i')
+    {
+        // check if the location is already taken
+        if (i != 'i')
+        {
+            error = true;
+            System.out.println("Location " + location + " is already taken!"); 
+        }
+
+        else
+        {
+            i = player;
+            error = false;
+        } 
+    }
+
+    else
+    {
+        error = true;
+        System.out.println("Wrong location chosen!");        
+    }
