@@ -26,7 +26,8 @@
         "october2", 
         "october3", 
         "october4", 
-        "october5"
+        "october5",
+        "october6"
     ]
     // All files are sorted from most recent to least recent, with acception of the last folder opened (that will be at the very bottom.)
 }
