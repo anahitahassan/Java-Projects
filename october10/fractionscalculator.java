@@ -64,29 +64,29 @@ public class fractionscalculator
             { 
                 int top = a-c;
                 int bottom = b;
-                int sub1 = top/bottom;
+                //int sub1 = top/bottom;
                 System.out.println(simplify(top, bottom));
             }
             else 
                 //different denominators, cross multipies and *subtracts
             { 
-                int top = (a*d)-(c*b);
-                int bottom = (b*d);
-                int sub2 = top/bottom;
+                //int top = (a*d)-(c*b);
+                //int bottom = (b*d);
+                //int sub2 = top/bottom;
             }
         }
         
         if ( operation == 3 )
             //only multiply
         {
-           int mult = (a*c)/(b*d); 
+           //int mult = (a*c)/(b*d); 
            
         }
         
         if ( operation == 4 )
             //only divide
         {
-           int divide = (a*d)/(b*c); 
+           //int divide = (a*d)/(b*c); 
         }
         
         scanner.close();
