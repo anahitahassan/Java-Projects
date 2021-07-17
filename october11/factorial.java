@@ -6,7 +6,9 @@ public class factorial
     {
         Scanner project = new Scanner(System.in);
         System.out.println("Please enter a number.");
-    
+        
+        project.close();
+
         int i;
         int j = 1;
         int a = project.nextInt(); 
@@ -15,8 +17,6 @@ public class factorial
             j*=i;
             //j = j * i;
         }
-        
-        project.close();
 
         System.out.println(j);
     }
