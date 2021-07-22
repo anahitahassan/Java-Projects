@@ -1,5 +1,3 @@
-import java.util.Scanner;
-
 /**
  * This program  takes in 5 inputs and sends them all to these following methods:
  * mean()
@@ -12,6 +10,7 @@ import java.util.Scanner;
  * @author: Anahita Hassan (AP Computer Science A, Mr. Jan, Period 1)
  */
 
+import java.util.Scanner;
 
 public class fryLau 
 {
