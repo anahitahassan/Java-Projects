@@ -47,7 +47,7 @@ public class catObject
     }
     
     // setters (reset)
-    public void setAge( int s )
+    public void setAge( int a )
     {
         age = a;
     }
