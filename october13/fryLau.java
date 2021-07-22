@@ -75,6 +75,7 @@ public class fryLau
       // Now all 5 inputs are in ascending order : num1 < num2 < num3 < num4 < num5
       System.out.println("Numbers in order: " +num1 + "," + num2 + "," + num3 + "," + num4 + "," + num5 + "\n");
       
+      // calling the methods below. 
       // find the mean 
       mean = mean(num1, num2, num3, num4, num5);
       // find the median
